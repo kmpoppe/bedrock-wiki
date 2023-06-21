@@ -30,9 +30,13 @@ You should create a shortcut to the `com.mojang` folder on your Desktop or on yo
 
 ### Windows
 
-_Tip: You can type %appdata% into the searchbar to jump directly into the 'C:\Users\USERNAME\AppData\' folder._
+_Tip: You can type %localappdata% into the searchbar to jump directly into the 'C:\Users\USERNAME\AppData\Local\' folder._
 
-`C:\Users\USERNAME\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang`
+`C:\Users\USERNAME\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang` 
+
+or, with the shorthand environment variable:
+
+`%localappdata%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang`
 
 ### Android
 
